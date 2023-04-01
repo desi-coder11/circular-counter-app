@@ -1,0 +1,117 @@
+*{
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+
+}
+
+h2,p {
+  font-family: 'Sofia Sans Semi Condensed', sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.timer-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.timer {
+    display: flex;
+    font-weight: bolder;
+    font-size: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+  color: #aaa;
+}
+
+.value {
+  font-size: 40px;
+}
+
+.info {
+  max-width: 360px;
+  margin: 40px auto 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+
+button{
+  align-items: center;
+  font-weight: 900;
+
+}
+
+
+
+.card {
+  width: 350px;
+  height: 150px;
+  background-color: rgb(240, 237, 239);
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.card-header {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.dark-color {
+  color: #333; /* dark color */
+}
+.light-color {
+  color: #999; /* lighter color */
+  font-size: small;
+}
+.card-body {
+  padding: 60px;
+  text-align: center;
+  margin-right: 80px;
+}
+
+.card-title {
+  margin-bottom: 0px;
+}
+
+.card-footer {
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  color: purple;
+}
+
+.card-title {
+  margin-bottom: 8px;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.card-text {
+  margin-top: 60px; 
+  font-weight: 600;
+  font-size: small;
+
+}
+.card-text {
+  margin-top: auto;
+}
+
+.icon {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 84px;
+  height: 84px;
+}
